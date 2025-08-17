@@ -1,5 +1,7 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import DataTable, { DataTableProps } from "../components/DataTable/DataTable";
+import DataTable from "../components/DataTable/DataTable";
+import type { DataTableProps } from "../components/DataTable/DataTable"; 
+
 
 interface User {
   id: number;
